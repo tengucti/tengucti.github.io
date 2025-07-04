@@ -26,7 +26,7 @@ export default defineConfig({
 			mode: "production",
 			base: "/",
 			scope: "/",
-			includeAssets: ["favicon.svg"],
+			includeAssets: ["tengu.png"],
 			registerType: "autoUpdate",
 			manifest: {
 				name: "Astros - Starter Template for Astro with Tailwind CSS",
@@ -34,17 +34,17 @@ export default defineConfig({
 				theme_color: "#ffffff",
 				icons: [
 					{
-						src: "pwa-192x192.png",
+						src: "tengu.png",
 						sizes: "192x192",
 						type: "image/png",
 					},
 					{
-						src: "pwa-512x512.png",
+						src: "tengu.png",
 						sizes: "512x512",
 						type: "image/png",
 					},
 					{
-						src: "pwa-512x512.png",
+						src: "tengu.png",
 						sizes: "512x512",
 						type: "image/png",
 						purpose: "any maskable",
