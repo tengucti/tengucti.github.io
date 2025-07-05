@@ -5,7 +5,7 @@ import { localizePath } from "astro-i18next";
 import { Icon } from "astro-icon/components";
 import { t } from "i18next";
 
-const features = [
+let features = [
 	{
 		title: "Astro",
 		description: "features.astro",
@@ -61,6 +61,26 @@ const features = [
 		url: "#",
 	},
 ];
+features = [
+	{
+		title: "Astro",
+		description: "features.astro",
+		icon: "bx:bxs-briefcase",
+		url: "https://astro.build/",
+	},
+	{
+		title: "Alpine",
+		description: "features.alpine",
+		icon: "bx:bxs-window-alt",
+		url: "https://alpinejs.dev/",
+	},
+	{
+		title: "Tailwind",
+		description: "features.tailwind",
+		icon: "bx:bxs-data",
+		url: "https://tailwindcss.com/",
+	},
+]
 ---
 
 <div class="relative mx-auto max-w-5xl px-6 lg:px-8">
