@@ -12,8 +12,8 @@ export const get = async () => {
 	);
 
 	return rss({
-		title: `Astros`,
-		description: "Astros - Starter Template for Astro with Tailwind CSS",
+		title: `TenguCTI`,
+		description: "TenguCTI is a decentralized platform for sharing Cyber Threat Intelligence (CTI), leveraging blockchain technology to ensure data integrity, traceability, and trust. Designed for security analysts, researchers, and organizations, it enables the publication, querying, and validation of indicators of compromise (IoCs), adversary tactics, and other threat data without relying on a central authority.",
 		site: import.meta.env.SITE,
 
 		items: posts.map((post) => ({

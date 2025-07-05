@@ -29,7 +29,7 @@ export default defineConfig({
 			includeAssets: ["tengu.png"],
 			registerType: "autoUpdate",
 			manifest: {
-				name: "Astros - Starter Template for Astro with Tailwind CSS",
+				name: "TenguCTI",
 				short_name: "Astros",
 				theme_color: "#ffffff",
 				icons: [
